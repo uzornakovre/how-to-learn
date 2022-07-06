@@ -9,19 +9,31 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.logo {}
+/*-------------header------------------*/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
   /* выше установили ограничения для секции */
 }
+
+.logo_place_header {}
+
+.header__title {}
+
+.header__subtitle {}
+
+.header__link {}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
-
+/*--------------main---------------------*/
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
