@@ -62,8 +62,8 @@
   color: #2f80ed;
 }
 
-.header__link:hover {
-  color: rgba(47,128,237,.7);
+.header__link:hover { /*просто от себя решил сделать*/
+  color: rgba(47, 128, 237, .7);
 }
 .header__main-illustration {
   position: absolute;
@@ -87,7 +87,7 @@
 /*--------------main---------------------*/
 
 .description {
-  margin-top: 100px; 
+  padding-top: 100px; 
   display: flex;
 }
 
@@ -105,6 +105,7 @@
   color: #2f80ed;
   width: 175px;
   margin: 0;
+  padding-right: 15px; /* чтобы колонки не соприкасались при уменьшении размера окна*/
 }
 
 .two-columns__main-text {
@@ -222,7 +223,7 @@
 .feynman__link {
   position: absolute;
   top: 445px;
-  right: 0;
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   color: #2f80ed;
@@ -230,8 +231,8 @@
   z-index: 1;
 }
 
-.feynman__link:hover {
-  color: rgba(47,128,237,.7);
+.feynman__link:hover { /*просто от себя решил сделать*/
+  color: rgba(47, 128, 237, .7);
 }
 
 .feynman__illustration {
@@ -281,15 +282,18 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  border: 1px solid yellow;
   padding: 60px 0 40px;
 }
 
-.footer__content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
 }
 
 .footer__author {
@@ -297,7 +301,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
-  vertical-align: flex-end;
 }
 
 .logo_place_footer {
@@ -308,10 +311,13 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
 }
 
 .footer__column-links {
   list-style: none;
+  padding: 20px 0 16px;
+  margin: 0;
 }
 .footer__column-link {
   color: #fff;
@@ -319,4 +325,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column-link:hover { /*просто от себя решил сделать*/
+  color: rgba(255, 255, 255, .3);
 }
