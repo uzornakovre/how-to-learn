@@ -28,7 +28,7 @@
 }
 
 .logo_place_header {
-  position: absolute; 
+  position: absolute;
   top: 30px;
   left: 64px;
   background-image: url('../images/logo_place_header.svg');
@@ -87,7 +87,7 @@
 /*--------------main---------------------*/
 
 .description {
-  padding-top: 100px; 
+  padding-top: 100px;
   display: flex;
 }
 
@@ -180,7 +180,6 @@
 }
 
 .table__text {
-  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
