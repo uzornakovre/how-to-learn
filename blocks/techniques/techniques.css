@@ -1,7 +1,5 @@
 .techniques {
   width: 80%;
-	display: flex;
   padding-top: 100px;
-  flex-direction: column;
   margin: 0 auto;
 }

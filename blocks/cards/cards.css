@@ -1,8 +1,9 @@
 .cards {
-	width: 920px;
+	max-width: 920px;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 100px;
   margin: 0 auto;
+  padding: 0;
 }
