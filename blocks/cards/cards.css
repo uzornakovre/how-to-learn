@@ -1,9 +1,13 @@
 .cards {
-	max-width: 920px;
+  max-width: 920px;
   list-style: none;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 100px 1fr 100px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 100px;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
   margin: 0 auto;
   padding: 0;
 }

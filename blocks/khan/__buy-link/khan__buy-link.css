@@ -5,7 +5,11 @@
   margin: 0 0 auto 0;
   text-decoration: none;
   color: #2f80ed;
-  align-self: top;
+  -ms-flex-item-align: top;
+      -ms-grid-row-align: top;
+      align-self: top;
+  -webkit-transition: opacity .4s;
+  -o-transition: opacity .4s;
   transition: opacity .4s;
 }
 
