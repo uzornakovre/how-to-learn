@@ -12,5 +12,6 @@ ______
 * :heavy_multiplication_x: JavaScript  
 
 :bulb: В следующей версии будет реализована адаптивность страницы под все устройства.
+_____
 
-[:link: Перейти на страницу](https://uzornakovre.github.io/how-to-learn/)
+[:link: Перейти на страницу в Github Pages](https://uzornakovre.github.io/how-to-learn/)
