@@ -18,4 +18,4 @@ _____
 ------
 ![GitHub repo size](https://img.shields.io/github/repo-size/uzornakovre/how-to-learn?color=yellow&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/uzornakovre/how-to-learn?color=blue&style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/uzornakovre/how-to-learn?color=pink&style=flat-square)
 
-[![Скриншот страницы](https://i.ibb.co/hC02Qhs/2022-08-15-13-11-05.png)](https://uzornakovre.github.io/how-to-learn/)
+[![Скриншот страницы](https://i.ibb.co/MnqJf9D/htl-anim.gif)](https://uzornakovre.github.io/how-to-learn/)
