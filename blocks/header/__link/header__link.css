@@ -9,3 +9,7 @@
 .header__link:hover { 
   opacity: .7;
 }
+
+.header__link:active { 
+  opacity: .4;
+}

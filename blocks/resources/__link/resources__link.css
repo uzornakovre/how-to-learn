@@ -6,3 +6,7 @@
 .resources__link:hover {
   opacity: .7;
 }
+
+.resources__link:active {
+  opacity: .5;
+}

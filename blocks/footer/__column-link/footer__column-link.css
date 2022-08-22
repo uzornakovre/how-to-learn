@@ -11,3 +11,7 @@
 .footer__column-link:hover {
   opacity: .7;
 }
+
+.footer__column-link:active {
+  opacity: .5;
+}

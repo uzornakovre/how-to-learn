@@ -15,3 +15,7 @@
 .feynman__link:hover {
   opacity: .7;
 }
+
+.feynman__link:active {
+  opacity: .4;
+}
